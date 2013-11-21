@@ -1,0 +1,96 @@
+/* line 6, ../_sass/screen.scss */
+* {
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../_sass/screen.scss */
+body {
+  background: pink;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+    background-color: #996633;
+    height: 40px;
+    padding-top: 10px;
+    position: fixed;
+}
+
+li {
+    display: inline;
+
+}
+
+li a {
+    padding: .4em 1em;
+    border-right: 1px solid #fff;
+    color: white;
+}
+
+.flag {
+    position: absolute;
+    top: 20px;
+    left: -250px;
+    width: 100%;
+}
+
+.fa-bookmark {
+    font-size: 8em;
+    color: #CCFFFF;
+}
+
+/* line 16, ../_sass/screen.scss */
+.content {
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+}
+
+/* line 22, ../_sass/screen.scss */
+.masthead {
+  text-align: center;
+  padding: 25px 0 25px 0;
+}
+
+/* line 28, ../_sass/screen.scss */
+.head-image {
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+}
+
+/* line 34, ../_sass/screen.scss */
+h1 {
+  font-family: 'Damion', cursive;
+  font-size: 4em;
+}
+/*h3 {
+    font-family: 'Crete+Round';*/
+
+
+
+.post {
+    width: 80%;
+    background-color: white;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.post-image {
+    padding-top: 10px;
+    width: 100%;
+}
+.fa-comment-o {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.date {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 40, ../_sass/screen.scss */
+  body {
+    background: #eed7a1;
+  }
+}

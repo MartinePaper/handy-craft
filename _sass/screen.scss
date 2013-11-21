@@ -1,0 +1,43 @@
+// Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
+// @import "reset";
+
+// font-family: 'Crete Round', serif;
+// font-family: 'Damion', cursive;
+* {
+    background-repeat: no-repeat;
+}
+
+
+
+body {
+    background: pink;
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+}
+
+.masthead {
+    text-align: center;
+    padding: 25px 0 25px 0;
+
+}
+
+.head-image {
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+}
+
+h1 {
+    font-family: 'Damion', cursive;
+    font-size: 4em;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background: #eed7a1;
+    }
+}
