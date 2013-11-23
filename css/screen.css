@@ -16,6 +16,10 @@ body {
     padding-top: 10px;
     position: fixed;
 }
+/*I added this intro class to give the intro more presence*/
+.intro {
+  font-size: 1.5em;
+}
 
 li {
     display: inline;
@@ -50,7 +54,7 @@ li a {
 /* line 22, ../_sass/screen.scss */
 .masthead {
   text-align: center;
-  padding: 25px 0 25px 0;
+  padding: 70px 0 25px 0;
 }
 
 /* line 28, ../_sass/screen.scss */
@@ -68,7 +72,19 @@ h1 {
 /*h3 {
     font-family: 'Crete+Round';*/
 
+.about {
+  height: 350px;
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  padding: 50px;
+}
 
+.about-portrait {
+  width: 110px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
 
 .post {
     width: 80%;
