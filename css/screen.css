@@ -5,7 +5,7 @@
 
 /* line 12, ../_sass/screen.scss */
 body {
-  background: pink;
+  background: #eed7a1;
 }
 
 .navbar {
@@ -15,6 +15,7 @@ body {
     height: 40px;
     padding-top: 10px;
     position: fixed;
+    z-index: 1;
 }
 /*I added this intro class to give the intro more presence*/
 .intro {
@@ -35,12 +36,12 @@ li a {
 .flag {
     position: absolute;
     top: 20px;
-    left: -250px;
+    left: -300px;
     width: 100%;
 }
 
 .fa-bookmark {
-    font-size: 8em;
+    font-size: 7em;
     color: #CCFFFF;
 }
 
@@ -68,11 +69,15 @@ li a {
 h1 {
   font-family: 'Damion', cursive;
   font-size: 4em;
+  color: #336666;
 }
-/*h3 {
-    font-family: 'Crete+Round';*/
+
+h3 {
+    color: #336699;
+}
 
 .about {
+  text-align: center;
   height: 350px;
   margin: 0 auto;
   width: 80%;
@@ -97,8 +102,9 @@ h1 {
     width: 100%;
 }
 .fa-comment-o {
-    margin-top: 10px;
-    font-size: 1.5em;
+    margin-top: 15px;
+    font-size: 2em;
+    color: #cc6699;
 }
 .date {
     margin-top: 10px;
