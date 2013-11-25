@@ -45,6 +45,15 @@ li a {
     color: #CCFFFF;
 }
 
+.fa-pinterest-square {
+    color: #336666;
+    font-size: 2.5em;
+    position: relative;
+    top: -35px;
+    left: -55px;
+    z-index: 9;
+}
+
 /* line 16, ../_sass/screen.scss */
 .content {
   margin: 0 auto;
@@ -103,12 +112,44 @@ h3 {
 }
 .fa-comment-o {
     margin-top: 15px;
+    padding-left: 15px;
     font-size: 2em;
     color: #cc6699;
 }
 .date {
-    margin-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #336699;
+    border-bottom: 1px solid #336699;
+    color: #336699;
 }
+
+.tutorial-main {
+    text-align: center;
+  height: 175px;
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  padding: 50px;
+}
+
+.tutorial-pic {
+    width: 80%;
+}
+
+.tutorial {
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.steps {
+    padding: 25px;
+}
+
+.materials {
+    list-style-type: circle;
+
+}
+
 
 @media screen and (min-width: 800px) {
   /* line 40, ../_sass/screen.scss */
